@@ -1,0 +1,42 @@
+header {
+    background-color: gray;
+}
+
+footer {
+    background-color: lightgray;
+}
+
+
+h1 {
+    color: blue;
+    font-family:'Segoe UI';
+  }
+
+h2, h3{
+    color: rgb(255, 0, 179);
+    font-family: 'Lucida Sans';
+  }
+
+.recipe{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0px;
+    background-color:rgb(230, 234, 234);
+}
+
+.recipe-link {
+    color: teal; 
+    text-decoration: none; 
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+button[type="button"]:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+
+  
